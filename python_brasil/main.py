@@ -14,3 +14,16 @@
 # texto = "eu gosto do numero 2126451234"
 # resposta = re.findall(padrao, texto)
 # print(resposta)
+
+# from TelefonesBr import TelefonesBr
+# import re
+
+# telefone = "552126481234"
+# telefone_objeto = TelefonesBr(telefone)
+# print(telefone_objeto)
+
+from datetime import datetime, timedelta
+from datas_br import DatasBr
+
+cadastro = DatasBr()
+print(cadastro.dia_semana())
