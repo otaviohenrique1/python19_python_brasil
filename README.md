@@ -11,7 +11,6 @@ Projeto do curso "Python Brasil validação de dados no padrão nacional" da Alu
 ### Criar venv
 
 - python -m virtualenv .venv
-- pip install validate-docbr
 
 ### Ativar venv
 
@@ -27,6 +26,8 @@ Projeto do curso "Python Brasil validação de dados no padrão nacional" da Alu
 ### Pacotes
 
 - pip install virtualenv
+- pip install validate-docbr
+- pip install requests
 
 ## Exibir pacotes instalados
 
@@ -42,3 +43,4 @@ Projeto do curso "Python Brasil validação de dados no padrão nacional" da Alu
 1. python -m virtualenv .venv
 2. source .venv/scripts/activate
 3. pip install -r requirements.txt
+4. python main.py
